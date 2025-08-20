@@ -41,12 +41,12 @@
       },
       "STRING_SESSIONS": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
+        "value": "AgFwyZ4AEes2inGwrshEhkT3KNIK5gsQfMZoD_jbYkTPG05olLP8b6ODiCt5aZuYwxXk6RDwczYbIDuAvPcEQ6XCmIbM8uGZ0CwTCRMzcK4d7tl2BXl-TuYelWacLl6X6pvmMiHcttWqFFPGuSHhHYYTUE_g0ZV60Vzb3YyRjvhhw-sAkrZvtrspA8mY4NVqSHe67TRCsyvxYDx2cLmOHN2l1LY6wPX4Zan3dD5rEqunuRaHFug91SM031N6zBi7Ip_gpVbvB-DNSWHLbvJ1LJKeFNNenNs7bHmY9lT11_TNESSZLqE7_T-C1sqbVs9Fm1pqF_wc10kYGF4_K3IlrOB7csQnzQAAAAHYehgCAA",
         "required": true
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "",
+        "value": "HRKU-AAwNu2aaHv0TKXSUaUJ6gxk_XODl79TyKs0giLl-RsFQ_wx11gGHU63r",
         "required": false
       },
       "HEROKU_APP_NAME": {
