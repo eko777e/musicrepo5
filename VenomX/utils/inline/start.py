@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardButton
 import config
-from InflexMusic import app
+from VenomX import app
 
 
 def start_panel(_):
