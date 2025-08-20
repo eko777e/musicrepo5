@@ -196,67 +196,67 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/7d9c0fec898bbee09ba95.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/95fcd2ec79b527ae3fac4.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/f739e6067725fa88ce8d3.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/95fcd2ec79b527ae3fac4.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/c66abbf490158487fdb72.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/3d130381bf5945c139023.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/d3663021fb51e14a84aa9.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/248e6858de3f2e37393c1.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://te.legra.ph/file/1b78431fe8de0e497c188.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://te.legra.ph/file/98622051acad1988886be.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://te.legra.ph/file/c03f25028fa248401d519.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://te.legra.ph/file/9fe24bde84b1d31f685a9.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/7345db59ab5d2c5cb142a.jpg",
+    "https://files.catbox.moe/8lbo6c.jpg",
 )
 
 
