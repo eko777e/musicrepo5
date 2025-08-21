@@ -30,7 +30,7 @@ from VenomX.utils.inline.playlist import (
     get_playlist_markup,
     warning_markup,
 )
-from VenomX.utils.pastebin import Venombin
+from VenomX.utils.pastebin import Ayushbin
 from VenomX.utils.stream.stream import stream
 
 
