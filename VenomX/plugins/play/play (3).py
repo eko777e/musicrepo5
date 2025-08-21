@@ -18,23 +18,23 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS, lyrical
 from strings import command
-from YukkiMusic import app
-from YukkiMusic.platforms import apple, resso, saavn, soundcloud
-from YukkiMusic.platforms import spotify as spotifyapi
-from YukkiMusic.platforms import telegram, youtube
-from YukkiMusic.utils import seconds_to_min, time_to_seconds
-from YukkiMusic.utils.database import is_video_allowed
-from YukkiMusic.utils.decorators.play import PlayWrapper
-from YukkiMusic.utils.formatters import formats
-from YukkiMusic.utils.inline.play import (
+from VenomX import app
+from VenomX.platforms import apple, resso, saavn, soundcloud
+from VenomX.platforms import spotify as spotifyapi
+from VenomX.platforms import telegram, youtube
+from VenomX.utils import seconds_to_min, time_to_seconds
+from VenomX.utils.database import is_video_allowed
+from VenomX.utils.decorators.play import PlayWrapper
+from VenomX.utils.formatters import formats
+from VenomX.utils.inline.play import (
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from YukkiMusic.utils.inline.playlist import botplaylist_markup
-from YukkiMusic.utils.logger import play_logs
-from YukkiMusic.utils.stream.stream import stream
+from VenomX.utils.inline.playlist import botplaylist_markup
+from VenomX.utils.logger import play_logs
+from VenomX.utils.stream.stream import stream
 
 
 @app.on_message(
