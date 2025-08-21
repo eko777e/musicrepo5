@@ -38,6 +38,7 @@ def start_pannel(_):
 def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None, OWNER_NAME: str = None):
     """
     OWNER_NAME dəyişəni burada parametr kimi əlavə edildi.
+    Dil düyməsi həmişə görünəcək.
     """
     buttons = [
         [InlineKeyboardButton(text=_["S_B_8"], callback_data="settings_back_helper")]
@@ -67,13 +68,16 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None, OWNER_NAME: s
         ]
     )
 
-    # Əgər OWNER mövcuddursa
+    # Owner və Dil düymələri eyni sətirdə
+    owner_row = []
     if OWNER and OWNER_NAME:
-        buttons.append(
-            [
-                InlineKeyboardButton(text=_["S_B_7"], url=f"{OWNER_NAME}"),
-                InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG"),
-            ]
-        )
+        owner_row.append(InlineKeyboardButton(text=_["S_B_7"], url=OWNER_NAME))
+    
+    # Dil düyməsi həmişə əlavə edilir
+    if _["ST_B_6"]:
+        owner_row.append(InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG"))
+
+    if owner_row:
+        buttons.append(owner_row)
 
     return buttons
