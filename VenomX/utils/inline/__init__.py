@@ -14,4 +14,4 @@ from .playlist import *
 from .queue import *
 from .settings import *
 from .song import *
-from .start import private_panel, start_panel  # ❗ Burada 'start_pannel' yox, 'start_panel' düzgün formadır
+from .start import *
