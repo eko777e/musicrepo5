@@ -71,11 +71,18 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None, OWNER_NAME: s
     # Owner və Dil düymələri eyni sətirdə
     owner_row = []
     if OWNER and OWNER_NAME:
-        owner_row.append(InlineKeyboardButton(text=_["S_B_7"], url=OWNER_NAME))
-    
+        # URL tam formatda olmalıdır
+        owner_row.append(
+            InlineKeyboardButton(
+                text=_["S_B_7"], url=f"https://t.me/RespublicOwner"
+            )
+        )
+
     # Dil düyməsi həmişə əlavə edilir
     if _["ST_B_6"]:
-        owner_row.append(InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG"))
+        owner_row.append(
+            InlineKeyboardButton(text=_["ST_B_6"], callback_data="LG")
+        )
 
     if owner_row:
         buttons.append(owner_row)
