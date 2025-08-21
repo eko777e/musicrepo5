@@ -16,22 +16,22 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from strings import command
-from YukkiMusic import app
-from YukkiMusic.platforms import carbon, youtube
-from YukkiMusic.utils.database import (
+from VenomX import app
+from VenomX.platforms import carbon, youtube
+from VenomX.utils.database import (
     delete_playlist,
     get_playlist,
     get_playlist_names,
     save_playlist,
 )
-from YukkiMusic.utils.decorators import language, languageCB
-from YukkiMusic.utils.decorators.play import botplaylist_markup
-from YukkiMusic.utils.inline.playlist import (
+from VenomX.utils.decorators import language, languageCB
+from VenomX.utils.decorators.play import botplaylist_markup
+from VenomX.utils.inline.playlist import (
     get_playlist_markup,
     warning_markup,
 )
-from YukkiMusic.utils.pastebin import Yukkibin
-from YukkiMusic.utils.stream.stream import stream
+from VenomX.utils.pastebin import Venombin
+from VenomX.utils.stream.stream import stream
 
 
 @app.on_message(command("PLAYLIST_COMMAND") & ~BANNED_USERS)
