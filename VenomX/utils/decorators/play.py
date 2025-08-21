@@ -14,7 +14,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
 from strings import get_string
 from VenomX import app
-from VenomX.core.call import Yukki
+from VenomX.core.call import Ayush
 from VenomX.misc import SUDOERS
 from VenomX.platforms import youtube
 from VenomX.utils.database import (
