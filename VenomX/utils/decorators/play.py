@@ -143,7 +143,7 @@ def PlayWrapper(command):
                 # Checking if assistant id not in list so clear queues and remove active voice chat and process
 
                 if not call_participants_id or userbot.id not in call_participants_id:
-                    await Yukki.stop_stream(chat_id)
+                    await Ayush.stop_stream(chat_id)
             except ChannelPrivate:
                 pass
 
