@@ -1,109 +1,96 @@
 Auth: |
-<b>Auth istifadəçilər qrupda admin hüquqları olmadan da admin komandalarından istifadə edə bilərlər.</b>
+  <b>Auth istifadəçilər qrupda admin hüquqları olmadan da admin komandalarından istifadə edə bilərlər.</b>
 
-<b>✧ {0}</b> [İstifadəçi adı] - İstifadəçini AUTH siyahısına əlavə et.
-<b>✧ {1}</b> [İstifadəçi adı] - İstifadəçini AUTH siyahısından sil.
-<b>✧ {2}</b> - Qrupun AUTH siyahısına bax.
-
+  <b>✧ {0}</b> [İstifadəçi adı] - İstifadəçini AUTH siyahısına əlavə et.
+  <b>✧ {1}</b> [İstifadəçi adı] - İstifadəçini AUTH siyahısından sil.
+  <b>✧ {2}</b> - Qrupun AUTH siyahısına bax.
 
 Admin: |
-<b>c kanal üzərindən oxutmaq üçündür</b>
+  <b>c kanal üzərindən oxutmaq üçündür</b>
 
-<b>✧ {0}</b> - Oxuyan musiqini dayandır.
-<b>✧ {1}</b> - Dayandırılmış musiqini davam etdir.
-<b>✧ {2}</b> - Oxuyan musiqini səsdən çıxar.
-<b>✧ {3}</b> - Səsi aç.
-<b>✧ {4}</b> - Növbəti musiqiyə keç.
-<b>✧ {5}</b> - Musiqini tam dayandır.
-<b>✧ {6}</b> - Növbədəki musiqiləri qarışdır.
-<b>✧ {7}</b> - Musiqini irəli sar.
-<b>✧ {8}</b> - Musiqini geri sar.
-<b>✧ {9}</b> - Botu qrup üçün yenidən başlad.
-
-<b>✧ {4}</b> [Nömrə (Məs 3)] - Seçilmiş nömrəyə qədər olan musiqiləri ötürərək həmin musiqiyə keç.
-<b>✧ {10}</b> [Enable/Disable] və ya [1-10 arası rəqəm] - Cari musiqini təkrar oxut. Default 10 dəfə.
-
-
+  <b>✧ {0}</b> - Oxuyan musiqini dayandır.
+  <b>✧ {1}</b> - Dayandırılmış musiqini davam etdir.
+  <b>✧ {2}</b> - Oxuyan musiqini səsdən çıxar.
+  <b>✧ {3}</b> - Səsi aç.
+  <b>✧ {4}</b> - Növbəti musiqiyə keç.
+  <b>✧ {5}</b> - Musiqini tam dayandır.
+  <b>✧ {6}</b> - Növbədəki musiqiləri qarışdır.
+  <b>✧ {7}</b> - Musiqini irəli sar.
+  <b>✧ {8}</b> - Musiqini geri sar.
+  <b>✧ {9}</b> - Botu qrup üçün yenidən başlad.
+  <b>✧ {4}</b> [Nömrə (Məs 3)] - Seçilmiş nömrəyə qədər olan musiqiləri ötürərək həmin musiqiyə keç.
+  <b>✧ {10}</b> [Enable/Disable] və ya [1-10 arası rəqəm] - Cari musiqini təkrar oxut. Default 10 dəfə.
 
 Active: |
-<b>✧ {0}</b> - Botda aktiv səsli söhbətlərə bax.
-<b>✧ {1}</b> - Aktiv səsli və video zənglərə bax.
-<b>✧ {2}</b> - Aktiv video zənglərə bax.
-<b>✧ {3}</b> - Bot statistikasına bax.
-
+  <b>✧ {0}</b> - Botda aktiv səsli söhbətlərə bax.
+  <b>✧ {1}</b> - Aktiv səsli və video zənglərə bax.
+  <b>✧ {2}</b> - Aktiv video zənglərə bax.
+  <b>✧ {3}</b> - Bot statistikasına bax.
 
 Play: |
-<b>✧ {0}</b> - Sənin verdiyin musiqini oxudar və ya linkləri yayımlar.
-<b>✧ {1}</b> - Force Play Hazırda oxuyan musiqini dərhal dəyişib yeni musiqini başlat.
-<b>✧ {2}</b> - Kanalı qrupa bağla və musiqini kanalın səsli söhbətində oxut.
-<b>✧ {3}</b> - Birbaşa URL (m3u8 və s.) yayımla.
-
-
+  <b>✧ {0}</b> - Sənin verdiyin musiqini oxudar və ya linkləri yayımlar.
+  <b>✧ {1}</b> - Force Play Hazırda oxuyan musiqini dərhal dəyişib yeni musiqini başlat.
+  <b>✧ {2}</b> - Kanalı qrupa bağla və musiqini kanalın səsli söhbətində oxut.
+  <b>✧ {3}</b> - Birbaşa URL (m3u8 və s.) yayımla.
 
 G-cast: |
-<b>{0} [Mesaj və ya mesaja cavab]</b> » Botun qoşulduğu bütün qruplara mesaj yay.
-<u>Yayım Modları:</u>
+  <b>{0} [Mesaj və ya mesaja cavab]</b> » Botun qoşulduğu bütün qruplara mesaj yay.
+  <u>Yayım Modları:</u>
 
-<b><code>-pin</code></b> » Mesajı qruplarda sabitləyir.
-<b><code>-pinloud</code></b> » Mesajı sabitləyir və bildiriş göndərir.
-<b><code>-user</code></b> » Botu start etmiş istifadəçilərə göndərir.
-<b><code>-assistant</code></b> » Botun köməkçiləri ilə yayım edir.
-<b><code>-nobot</code></b> » Botun özündən yayım etmir (yalnız assistant ilə).
+  <b><code>-pin</code></b> » Mesajı qruplarda sabitləyir.
+  <b><code>-pinloud</code></b> » Mesajı sabitləyir və bildiriş göndərir.
+  <b><code>-user</code></b> » Botu start etmiş istifadəçilərə göndərir.
+  <b><code>-assistant</code></b> » Botun köməkçiləri ilə yayım edir.
+  <b><code>-nobot</code></b> » Botun özündən yayım etmir (yalnız assistant ilə).
 
-> <b>Nümunə:</b> <code>/{0} -user -assistant -pin Test yayım</code>
-
+  <b>Nümunə:</b> <code>/{0} -user -assistant -pin Test yayım</code>
 
 Bot: |
-<b>★ {0}</b> - Qlobal Top 10 Musiqi, Top 10 İstifadəçi, Top 10 Qrup və s. statistika.
-<b>★ {1}</b> - Botun sudo istifadəçilərinə bax.
-<b>★ {2} [Musiqi adı]</b> - Verilmiş musiqinin sözlərini tap.
-<b>★ {3} [Musiqi adı və ya YT Link]</b> - YouTube-dan MP3/MP4 endir.
-<b>★ {4}</b> - Cari növbədəki musiqilərə bax.
+  <b>★ {0}</b> - Qlobal Top 10 Musiqi, Top 10 İstifadəçi, Top 10 Qrup və s. statistika.
+  <b>★ {1}</b> - Botun sudo istifadəçilərinə bax.
+  <b>★ {2} [Musiqi adı]</b> - Verilmiş musiqinin sözlərini tap.
+  <b>★ {3} [Musiqi adı və ya YT Link]</b> - YouTube-dan MP3/MP4 endir.
+  <b>★ {4}</b> - Cari növbədəki musiqilərə bax.
 
-<u><b>⚡️Şəxsi Bot:</b></u>
-<b>✧ {5} [CHAT_ID]</b> - Bu qrup üçün botu aktiv et.
-<b>✧ {6} [CHAT_ID]</b> - Bu qrupu botdan deaktiv et.
-<b>✧ {7}</b> - Botun icazə verdiyi bütün qruplara bax.
-
+  <u><b>⚡️Şəxsi Bot:</b></u>
+  <b>✧ {5} [CHAT_ID]</b> - Bu qrup üçün botu aktiv et.
+  <b>✧ {6} [CHAT_ID]</b> - Bu qrupu botdan deaktiv et.
+  <b>✧ {7}</b> - Botun icazə verdiyi bütün qruplara bax.
 
 P-List: |
-<b>{0}</b> - Öz şəxsi playlistinə bax.
-<b>{1}</b> - Playlistdən musiqi sil.
-<b>{2}</b> - Playlistini səsli rejimdə oxut.
-<b>{3}</b> - Playlistini video rejimdə oxut.
-
+  <b>{0}</b> - Öz şəxsi playlistinə bax.
+  <b>{1}</b> - Playlistdən musiqi sil.
+  <b>{2}</b> - Playlistini səsli rejimdə oxut.
+  <b>{3}</b> - Playlistini video rejimdə oxut.
 
 B-list: |
-<b>✧ {0}</b> [Chat ID] - Bir qrupu botdan blokla.
-<b>✧ {1}</b> [Chat ID] - Blok edilmiş qrupu aç.
-<b>✧ {2}</b> - Bloklanmış qrupların siyahısı.
-
-<b>✧ {3}</b> [İstifadəçi adı və ya cavab] - İstifadəçinin botdan istifadə etməsini qadağan et.
-<b>✧ {4}</b> [İstifadəçi adı və ya cavab] - İstifadəçini qadağadan çıxar.
-<b>✧ {5}</b> - Qadağan olunmuş istifadəçilərin siyahısı.
-
-<b>✧ {6}</b> [İstifadəçi adı və ya cavab] - İstifadəçini bütün qruplardan banla (GBAN).
-<b>✧ {7}</b> [İstifadəçi adı və ya cavab] - İstifadəçini GBAN siyahısından çıxar.
-<b>✧ {8}</b> - GBAN olunmuş istifadəçilərin siyahısı.
-
+  <b>✧ {0}</b> [Chat ID] - Bir qrupu botdan blokla.
+  <b>✧ {1}</b> [Chat ID] - Blok edilmiş qrupu aç.
+  <b>✧ {2}</b> - Bloklanmış qrupların siyahısı.
+  <b>✧ {3}</b> [İstifadəçi adı və ya cavab] - İstifadəçinin botdan istifadə etməsini qadağan et.
+  <b>✧ {4}</b> [İstifadəçi adı və ya cavab] - İstifadəçini qadağadan çıxar.
+  <b>✧ {5}</b> - Qadağan olunmuş istifadəçilərin siyahısı.
+  <b>✧ {6}</b> [İstifadəçi adı və ya cavab] - İstifadəçini bütün qruplardan banla (GBAN).
+  <b>✧ {7}</b> [İstifadəçi adı və ya cavab] - İstifadəçini GBAN siyahısından çıxar.
+  <b>✧ {8}</b> - GBAN olunmuş istifadəçilərin siyahısı.
 
 Dev: |
-<b><u>Sudo əlavə/silmə:</u></b>
-<b>{0} [İstifadəçi adı və ya cavab]</b> - Sudo əlavə et.
-<b>{1} [İstifadəçi adı/ID və ya cavab]</b> - Sudo sil.
-<b>{2}</b> - Sudo siyahısına bax.
+  <b><u>Sudo əlavə/silmə:</u></b>
+  <b>{0} [İstifadəçi adı və ya cavab]</b> - Sudo əlavə et.
+  <b>{1} [İstifadəçi adı/ID və ya cavab]</b> - Sudo sil.
+  <b>{2}</b> - Sudo siyahısına bax.
 
-<b><u>Heroku:</u></b>
-<b>{3}</b> - Dyno istifadəsinə bax.
-<b>{4} [Var adı]</b> - Config dəyişənini göstər.
-<b>{5} [Var adı]</b> - Config dəyişənini sil.
-<b>{6} [Var adı] [Dəyər]</b> - Config dəyişəni əlavə/yenilə.
+  <b><u>Heroku:</u></b>
+  <b>{3}</b> - Dyno istifadəsinə bax.
+  <b>{4} [Var adı]</b> - Config dəyişənini göstər.
+  <b>{5} [Var adı]</b> - Config dəyişənini sil.
+  <b>{6} [Var adı] [Dəyər]</b> - Config dəyişəni əlavə/yenilə.
 
-<b><u>Bot əmrləri:</u></b>
-<b>{7}</b> - Botu yenidən başlad (yalnız SUDO).
-<b>{8}</b> - Botu yenilə.
-<b>{9}</b> - Server sürətini yoxla.
-<b>{10} [enable/disable]</b> - Texniki iş rejimini aç/qapat.
-<b>{11} [enable/disable]</b> - Axtarış sorğularının logunu aç/qapat.
-<b>{12} [Sətir sayı]</b> - Server logunu göstər.
-<b>{13} [enable/disable]</b> - Heç kim dinləmirsə 30 saniyədən sonra avtomatik dayandır.
+  <b><u>Bot əmrləri:</u></b>
+  <b>{7}</b> - Botu yenidən başlad (yalnız SUDO).
+  <b>{8}</b> - Botu yenilə.
+  <b>{9}</b> - Server sürətini yoxla.
+  <b>{10} [enable/disable]</b> - Texniki iş rejimini aç/qapat.
+  <b>{11} [enable/disable]</b> - Axtarış sorğularının logunu aç/qapat.
+  <b>{12} [Sətir sayı]</b> - Server logunu göstər.
+  <b>{13} [enable/disable]</b> - Heç kim dinləmirsə 30 saniyədən sonra avtomatik dayandır.
