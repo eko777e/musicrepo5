@@ -1,24 +1,23 @@
-
 # All rights reserved.
 #
 
-from .Apple import Apple
-from .Carbon import Carbon
-from .JioSavan import Saavn
-from .Resso import Resso
-from .Soundcloud import SoundCloud
-from .Spotify import Spotify
-from .Telegram import Telegram
-from .Youtube import YouTube
+from .Apple import Apple as apple
+from .Carbon import Carbon as carbon
+from .JioSavan import Saavn as saavn
+from .Resso import Resso as resso
+from .Soundcloud import SoundCloud as soundcloud
+from .Spotify import Spotify as spotify
+from .Telegram import Telegram as telegram
+from .Youtube import YouTube as youtube
 
 
 class PlaTForms:
     def __init__(self):
-        self.apple = Apple()
-        self.carbon = Carbon()
-        self.saavn = Saavn()
-        self.resso = Resso()
-        self.soundcloud = SoundCloud()
-        self.spotify = Spotify()
-        self.telegram = Telegram()
-        self.youtube = YouTube()
+        self.apple = apple()
+        self.carbon = carbon()
+        self.saavn = saavn()
+        self.resso = resso()
+        self.soundcloud = soundcloud()
+        self.spotify = spotify()
+        self.telegram = telegram()
+        self.youtube = youtube()
